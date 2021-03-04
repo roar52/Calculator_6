@@ -51,12 +51,14 @@ namespace Calculator
             this.sqrtBtn = new System.Windows.Forms.Button();
             this.inversionBtn = new System.Windows.Forms.Button();
             this.deleteBtn = new System.Windows.Forms.Button();
+            this.copyBtn = new System.Windows.Forms.Button();
+            this.pasteBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(11, 263);
+            this.button1.Location = new System.Drawing.Point(16, 331);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(50, 50);
             this.button1.TabIndex = 0;
@@ -67,7 +69,7 @@ namespace Calculator
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(67, 263);
+            this.button2.Location = new System.Drawing.Point(72, 331);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(50, 50);
             this.button2.TabIndex = 1;
@@ -78,7 +80,7 @@ namespace Calculator
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(123, 263);
+            this.button3.Location = new System.Drawing.Point(128, 331);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(50, 50);
             this.button3.TabIndex = 2;
@@ -89,7 +91,7 @@ namespace Calculator
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(11, 207);
+            this.button4.Location = new System.Drawing.Point(16, 275);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(50, 50);
             this.button4.TabIndex = 3;
@@ -100,7 +102,7 @@ namespace Calculator
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(67, 208);
+            this.button5.Location = new System.Drawing.Point(72, 276);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(50, 50);
             this.button5.TabIndex = 4;
@@ -111,7 +113,7 @@ namespace Calculator
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(123, 208);
+            this.button6.Location = new System.Drawing.Point(128, 276);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(50, 50);
             this.button6.TabIndex = 5;
@@ -122,7 +124,7 @@ namespace Calculator
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button7.Location = new System.Drawing.Point(11, 151);
+            this.button7.Location = new System.Drawing.Point(16, 219);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(50, 50);
             this.button7.TabIndex = 6;
@@ -133,7 +135,7 @@ namespace Calculator
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button8.Location = new System.Drawing.Point(67, 151);
+            this.button8.Location = new System.Drawing.Point(72, 219);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(50, 50);
             this.button8.TabIndex = 7;
@@ -144,7 +146,7 @@ namespace Calculator
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button9.Location = new System.Drawing.Point(123, 151);
+            this.button9.Location = new System.Drawing.Point(128, 219);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(50, 50);
             this.button9.TabIndex = 8;
@@ -163,7 +165,7 @@ namespace Calculator
             // button0
             // 
             this.button0.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button0.Location = new System.Drawing.Point(11, 319);
+            this.button0.Location = new System.Drawing.Point(16, 387);
             this.button0.Name = "button0";
             this.button0.Size = new System.Drawing.Size(106, 50);
             this.button0.TabIndex = 10;
@@ -174,7 +176,7 @@ namespace Calculator
             // divBtn
             // 
             this.divBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.divBtn.Location = new System.Drawing.Point(179, 95);
+            this.divBtn.Location = new System.Drawing.Point(184, 163);
             this.divBtn.Name = "divBtn";
             this.divBtn.Size = new System.Drawing.Size(50, 50);
             this.divBtn.TabIndex = 11;
@@ -185,7 +187,7 @@ namespace Calculator
             // mulBtn
             // 
             this.mulBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.mulBtn.Location = new System.Drawing.Point(179, 151);
+            this.mulBtn.Location = new System.Drawing.Point(184, 219);
             this.mulBtn.Name = "mulBtn";
             this.mulBtn.Size = new System.Drawing.Size(50, 50);
             this.mulBtn.TabIndex = 12;
@@ -196,7 +198,7 @@ namespace Calculator
             // minBtn
             // 
             this.minBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.minBtn.Location = new System.Drawing.Point(179, 207);
+            this.minBtn.Location = new System.Drawing.Point(184, 275);
             this.minBtn.Name = "minBtn";
             this.minBtn.Size = new System.Drawing.Size(50, 50);
             this.minBtn.TabIndex = 13;
@@ -207,7 +209,7 @@ namespace Calculator
             // sumBtm
             // 
             this.sumBtm.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.sumBtm.Location = new System.Drawing.Point(179, 263);
+            this.sumBtm.Location = new System.Drawing.Point(184, 331);
             this.sumBtm.Name = "sumBtm";
             this.sumBtm.Size = new System.Drawing.Size(50, 50);
             this.sumBtm.TabIndex = 14;
@@ -219,7 +221,7 @@ namespace Calculator
             // 
             this.resBtn.BackColor = System.Drawing.SystemColors.Control;
             this.resBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.resBtn.Location = new System.Drawing.Point(179, 319);
+            this.resBtn.Location = new System.Drawing.Point(184, 387);
             this.resBtn.Name = "resBtn";
             this.resBtn.Size = new System.Drawing.Size(50, 50);
             this.resBtn.TabIndex = 15;
@@ -230,7 +232,7 @@ namespace Calculator
             // pointBtn
             // 
             this.pointBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.pointBtn.Location = new System.Drawing.Point(123, 319);
+            this.pointBtn.Location = new System.Drawing.Point(128, 387);
             this.pointBtn.Name = "pointBtn";
             this.pointBtn.Size = new System.Drawing.Size(50, 50);
             this.pointBtn.TabIndex = 16;
@@ -241,7 +243,7 @@ namespace Calculator
             // clearBtn
             // 
             this.clearBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.clearBtn.Location = new System.Drawing.Point(11, 39);
+            this.clearBtn.Location = new System.Drawing.Point(16, 107);
             this.clearBtn.Name = "clearBtn";
             this.clearBtn.Size = new System.Drawing.Size(50, 50);
             this.clearBtn.TabIndex = 17;
@@ -252,7 +254,7 @@ namespace Calculator
             // powBtn
             // 
             this.powBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.powBtn.Location = new System.Drawing.Point(67, 95);
+            this.powBtn.Location = new System.Drawing.Point(72, 163);
             this.powBtn.Name = "powBtn";
             this.powBtn.Size = new System.Drawing.Size(50, 50);
             this.powBtn.TabIndex = 18;
@@ -263,7 +265,7 @@ namespace Calculator
             // sqrtBtn
             // 
             this.sqrtBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.sqrtBtn.Location = new System.Drawing.Point(123, 95);
+            this.sqrtBtn.Location = new System.Drawing.Point(128, 163);
             this.sqrtBtn.Name = "sqrtBtn";
             this.sqrtBtn.Size = new System.Drawing.Size(50, 50);
             this.sqrtBtn.TabIndex = 19;
@@ -274,7 +276,7 @@ namespace Calculator
             // inversionBtn
             // 
             this.inversionBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.inversionBtn.Location = new System.Drawing.Point(11, 95);
+            this.inversionBtn.Location = new System.Drawing.Point(16, 163);
             this.inversionBtn.Name = "inversionBtn";
             this.inversionBtn.Size = new System.Drawing.Size(50, 50);
             this.inversionBtn.TabIndex = 20;
@@ -286,7 +288,7 @@ namespace Calculator
             // 
             this.deleteBtn.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.deleteBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.deleteBtn.Location = new System.Drawing.Point(123, 39);
+            this.deleteBtn.Location = new System.Drawing.Point(128, 107);
             this.deleteBtn.Name = "deleteBtn";
             this.deleteBtn.Size = new System.Drawing.Size(106, 50);
             this.deleteBtn.TabIndex = 21;
@@ -294,11 +296,35 @@ namespace Calculator
             this.deleteBtn.UseVisualStyleBackColor = true;
             this.deleteBtn.Click += new System.EventHandler(this.deleteBtn_Click);
             // 
+            // copyBtn
+            // 
+            this.copyBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.copyBtn.Location = new System.Drawing.Point(16, 51);
+            this.copyBtn.Name = "copyBtn";
+            this.copyBtn.Size = new System.Drawing.Size(50, 50);
+            this.copyBtn.TabIndex = 22;
+            this.copyBtn.Text = "Copy";
+            this.copyBtn.UseVisualStyleBackColor = true;
+            this.copyBtn.Click += new System.EventHandler(this.copy_click);
+            // 
+            // pasteBtn
+            // 
+            this.pasteBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.pasteBtn.Location = new System.Drawing.Point(72, 51);
+            this.pasteBtn.Name = "pasteBtn";
+            this.pasteBtn.Size = new System.Drawing.Size(50, 50);
+            this.pasteBtn.TabIndex = 23;
+            this.pasteBtn.Text = "Paste";
+            this.pasteBtn.UseVisualStyleBackColor = true;
+            this.pasteBtn.Click += new System.EventHandler(this.paste_click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(238, 378);
+            this.ClientSize = new System.Drawing.Size(245, 444);
+            this.Controls.Add(this.pasteBtn);
+            this.Controls.Add(this.copyBtn);
             this.Controls.Add(this.deleteBtn);
             this.Controls.Add(this.inversionBtn);
             this.Controls.Add(this.sqrtBtn);
@@ -352,6 +378,8 @@ namespace Calculator
         private System.Windows.Forms.Button sqrtBtn;
         private System.Windows.Forms.Button inversionBtn;
         private System.Windows.Forms.Button deleteBtn;
+        private System.Windows.Forms.Button copyBtn;
+        private System.Windows.Forms.Button pasteBtn;
     }
 }
 

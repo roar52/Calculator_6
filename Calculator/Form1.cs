@@ -25,6 +25,8 @@ namespace Calculator
         private double _firstCount;
         private double _secondCount;
         private double res;
+        private double _saveCount;
+        private bool _pasteFlag;
         public Form1()
         {
             InitializeComponent();
@@ -189,6 +191,17 @@ namespace Calculator
                 mainTable.Text=mainTable.Text.Insert(0, "-");
                 _negative = true;
             }
+        }
+
+        private void copy_click(object sender, EventArgs e)
+        {
+            _saveCount= Convert.ToDouble(mainTable.Text);
+            _pasteFlag = true;
+        }
+
+        private void paste_click(object sender, EventArgs e)
+        {
+            mainTable.Text = $"{_saveCount}";
         }
     }
 }
